@@ -1,6 +1,5 @@
 
 from flask import Flask, request, jsonify, redirect, url_for, session
-from flask_pymongo import PyMongo
 from flask_cors import CORS
 from datetime import datetime
 import os
